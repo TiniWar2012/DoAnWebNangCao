@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Sói Gear";
+    
+}
+
+
+<br />
+<div class="row">
+    @*<div class="col-md-8">
+       @Html.Action("SlidePartial","Home")
+    </div>*@
+    <div>
+        <img src="~/HinhanhSP/soigear.jpg" class="img-responsive" alt="" />
+    </div>
+</div>
+
+<br />
+<div class="spnoibat">
+    <div class="row">
+
+        <h3 style="text-align:center"> SẢN PHẨM NỔI BẬT</h3>
+        <div class="col-md-4">
+            <img src="~/HinhanhSP/kb1.jpg" class="img-responsive" alt="" />
+        </div>
+        <div class="col-md-4">
+            <img src="~/HinhanhSP/kb2.jpg" class="img-responsive" alt="" />
+        </div>
+        <div class="col-md-4">
+            <img src="~/HinhanhSP/kb3.jpg" class="img-responsive" alt="" />
+        </div>
+    </div>
+</div>
+<div class="danhmuc">
+    @Html.Action("DanhmucPartial", "Danhmuc")
+</div>
+<div class="dt">
+
+    @Html.Action("dtiphonePartial", "Sanpham")
+</div>
+<div class="dt">
+
+    @Html.Action("dtsamsungpartial", "Sanpham")
+</div>
+
+<div class="dt">
+
+    @Html.Action("dtxiaomipartial", "Sanpham")
+</div>
+
+
